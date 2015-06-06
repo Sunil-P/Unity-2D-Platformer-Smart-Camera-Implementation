@@ -3,8 +3,9 @@ A smart Camera Script for basic 2D Platformer
 
 PreRequisites:
 Main Camera should be named : MainCamera
-Player Character should be named : Player
-//Will remove these requirements after further update
+Player Character should be named : Player	
+
+Will remove these requirements after further update
 
 HOW TO USE
 
@@ -16,5 +17,5 @@ HOW TO USE
 
 HOW IT WORKS
 
-Generic camera controllers simply track the position and movement of the player controller.. However this is very imprecise and can look quite odd in fast paced platformers..
+Generic camera controllers/Unity Inbuilt controller simply track the position and movement of the player controller. However this is very imprecise and can look quite odd in fast paced platformers..
 The smart camera (as I like to call it), uses a rectangular TRAP that encases the player character. The player cannot move out of this TRAP. The camera ONLY starts moving when the player hits the boundaries of the TRAP. This gives a small room for the player to move around without affecting the camera
