@@ -19,3 +19,8 @@ HOW IT WORKS
 
 Generic camera controllers/Unity Inbuilt controller simply track the position and movement of the player controller. However this is very imprecise and can look quite odd in fast paced platformers.  
 The smart camera (as I like to call it), uses a rectangular TRAP that encases the player character. The player cannot move out of this TRAP. The camera ONLY starts moving when the player hits the boundaries of the TRAP. This gives a small room for the player to move around without affecting the camera
+
+DemoScene Controls ->
+Left arrow - move left
+Right arrow - move right
+Up arrow - Jump
