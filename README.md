@@ -2,6 +2,7 @@
 A smart Camera Script for basic 2D Platformer
 
 PreRequisites:
+
 Main Camera should be named : MainCamera  
 Player Character should be named : Player  	
 
